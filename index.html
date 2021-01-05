@@ -18,7 +18,7 @@
       <img src="img/waves.svg" height="48" class="mb-4">
       <h1 class="text-primary text-center mb-4">Speech Recognition</h1>
       <p contenteditable id="text" class="w-75 p-3 bg-light rounded text-muted text-center font-italic mb-4">Write something here or press the mic.</p contenteditable>
-      <div class="d-flex justify-content-center">
+      <div class="d-flex justify-content-center mb-4">
         <button id="mic" type="button" class="btn btn-primary mx-2" data-toggle="tooltip" data-placement="bottom" title="Recognize from voice">
           <img class="mx-1" src="img/mic.svg" height="32">
         </button>
@@ -26,6 +26,10 @@
           <img class="mx-1" src="img/speaker.svg" height="32">
         </button>
       </div>
+      <select id="voice-select" class="custom-select w-75 text-muted">
+        <option data-lang="en-US" selected>English (en-US)</option>
+        <option data-lang="es-US">Español (es-US)</option>
+      </select>
     </div>
   </section>
 
