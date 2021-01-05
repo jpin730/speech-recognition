@@ -1,0 +1,16 @@
+@media (max-width: 575.98px), (max-height: 575.98px) {
+  body.bg-light {
+    background-color: #fff!important;
+  }
+
+  section.vh-100 {
+    padding: 0!important;
+  }
+
+  div.container {
+    padding: 0!important;
+    border: none!important;
+    box-shadow: none!important;
+    background: none!important;
+  }
+}
